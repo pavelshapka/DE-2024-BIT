@@ -71,7 +71,7 @@ CREATE TABLE customer_transaction.cus_pq STORED AS PARQUET AS SELECT * FROM cust
 ![](images/descr_tr_pq.png)
 ![](images/descr_cus_pq.png)
 
-4) Создадим исправленную таблицу tr_upd, в которой будут лежать данные таблицы tr_ex, но поле transaction_date будет типа DATE
+4) Создадим исправленную таблицу tr_ex_date, в которой будут лежать данные таблицы tr_ex, но поле transaction_date будет типа DATE
 
 ```SQL
 
